@@ -1,8 +1,8 @@
 def connect():
     import network
     
-    ssid = "HUAWEI Mate 20 Pro"
-    password = "0432349128"
+    ssid = "your_wifi_id"
+    password = "your_password"
     
     station = network.WLAN(network.STA_IF)
     
