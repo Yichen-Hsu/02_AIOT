@@ -7,8 +7,12 @@
 # according to your needs
 # ************************
 import machine
+import utime
 led = machine.Pin(2,machine.Pin.OUT)
-led.off()
+while True:
+    led.on()
+    utime.sleep(5)
+    led.off()
 
 # ************************
 # Configure the socket connection
